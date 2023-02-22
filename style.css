@@ -2,6 +2,7 @@ body {
     margin: 0px;
     color: rgb(20,20,20);
     background-color: rgb(245,245,245);
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -30,7 +31,6 @@ p {
 }
 .feature {
     font-size: 24px;
-    font-family: arial;
 }
 
 .feature img {
@@ -47,7 +47,11 @@ p {
     background: rgb(30,30,30);
     color: lightgrey;
 }
-
+#devise {
+  font-family: 'Shantell Sans', cursive;
+}
 #my-footer i {
   margin: 0px 2px 0px 2px;
+  text-align: center;
 }
+
