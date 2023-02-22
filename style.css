@@ -2,17 +2,10 @@ body {
     margin: 0px;
     color: rgb(20,20,20);
     background-color: rgb(245,245,245);
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Kalam', cursive;
-}
-
-h2 {
-    color: #FF1F14;
-    font-size: 20px;
-    fornt-family: arial;
+    color: #E47D7E;
 }
 
 p {
@@ -21,24 +14,33 @@ p {
 }
 
 #my-header {
-    text-align: center;
+  font-family: 'Kalam', cursive;  
+  text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #f3dddd;
+    color: #ffffff;
     background: url("https://picsum.photos/1300/600?grayscale");
 }
-
+#banniere {
+  margin-top: 10px;
+}
 .feature {
     padding: 40px;
-    font-weight: 300;
+    font-weight: 30;
+}
+.feature {
+    font-size: 24px;
+    font-family: arial;
 }
 
 .feature img {
     padding: 10px;
+    margin: 10px 10px 10px 10px;
     border: 1px solid black;
     border-radius: 50%;
     box-shadow: 5px 3px 13px 7px #302ecd;
 }
+
 
 #my-footer {
     padding: 30px;
@@ -46,4 +48,6 @@ p {
     color: lightgrey;
 }
 
-
+#my-footer i {
+  margin: 0px 2px 0px 2px;
+}
