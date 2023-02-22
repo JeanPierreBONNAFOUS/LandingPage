@@ -1,5 +1,49 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+    margin: 0px;
+    color: rgb(20,20,20);
+    background-color: rgb(245,245,245);
+    font-family: 'Open Sans', sans-serif;
 }
-p{color:red;}
+
+h1 {
+    font-family: 'Kalam', cursive;
+}
+
+h2 {
+    color: #FF1F14;
+    font-size: 20px;
+    fornt-family: arial;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#my-header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f3dddd;
+    background: url("https://picsum.photos/1300/600?grayscale");
+}
+
+.feature {
+    padding: 40px;
+    font-weight: 300;
+}
+
+.feature img {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 3px 13px 7px #302ecd;
+}
+
+#my-footer {
+    padding: 30px;
+    background: rgb(30,30,30);
+    color: lightgrey;
+}
+
+
